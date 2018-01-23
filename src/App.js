@@ -70,8 +70,8 @@ class App extends Component {
                 <h1>control panel</h1>
                 <div>
                     <h3>sort by rank</h3>
-                    <button onClick={() => this.sortByRank('asc')}>asc</button>
-                    <button onClick={() => this.sortByRank('desc')}>desc</button>
+                    <button id="sort-by-asc" onClick={() => this.sortByRank('asc')}>asc</button>
+                    <button id="sort-by-desc" onClick={() => this.sortByRank('desc')}>desc</button>
                 </div>
                 <div>
                     <h3>sort by type</h3>
@@ -82,7 +82,7 @@ class App extends Component {
                 </div>
                 <div>
                     <h3>shuffle</h3>
-                    <button onClick={() => this.shuffle()}>shuffle</button>
+                    <button id="shuffle" onClick={() => this.shuffle()}>shuffle</button>
                 </div>
                 <div>
                     <h3>generate fresh model</h3>
