@@ -1,0 +1,16 @@
+machine:
+    node:
+        version: 6.9
+
+dependencies:
+    cache_directories:
+        - ~/.npm/
+    override:
+        - npm install --no-progress
+    post:
+        - npm run generate:css && npm install -g codecov
+
+test:
+    override:
+        - npm test -- --coverage
+        - codecov
