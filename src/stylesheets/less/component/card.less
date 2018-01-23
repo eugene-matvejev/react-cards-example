@@ -1,0 +1,185 @@
+.component.card {
+    &.pikes, &.hearts, &.tiles, &.clovers {
+        font-size: 5rem;
+        width: 5rem;
+        height: 5rem;
+        line-height: 5rem;
+    }
+
+    // @ranks: 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E;
+    // .for-each(@rank in @ranks) {
+    //     .pikes.rank@{rank} {
+    //         &::before {
+    //             content: '\1F0A@{rank}';
+    //         }
+    //     }
+    // }
+
+    &.pikes {
+        &.rank2::before {
+            content: '\1F0A2';
+        }
+        &.rank3::before {
+            content: '\1F0A3';
+        }
+        &.rank4::before {
+            content: '\1F0A4';
+        }
+        &.rank5::before {
+            content: '\1F0A5';
+        }
+        &.rank6::before {
+            content: '\1F0A6';
+        }
+        &.rank7::before {
+            content: '\1F0A7';
+        }
+        &.rank8::before {
+            content: '\1F0A8';
+        }
+        &.rank9::before {
+            content: '\1F0A9';
+        }
+        &.rank10::before {
+            content: '\1F0AA';
+        }
+        &.rank11::before {
+            content: '\1F0AB';
+        }
+        &.rank12::before {
+            content: '\1F0AC';
+        }
+        &.rank13::before {
+            content: '\1F0AD';
+        }
+        &.rank14::before {
+            content: '\1F0A1';
+        }
+    }
+
+    &.hearts {
+        &.rank2::before {
+            content: '\1F0B2';
+        }
+        &.rank3::before {
+            content: '\1F0B3';
+        }
+        &.rank4::before {
+            content: '\1F0B4';
+        }
+        &.rank5::before {
+            content: '\1F0B5';
+        }
+        &.rank6::before {
+            content: '\1F0B6';
+        }
+        &.rank7::before {
+            content: '\1F0B7';
+        }
+        &.rank8::before {
+            content: '\1F0B8';
+        }
+        &.rank9::before {
+            content: '\1F0B9';
+        }
+        &.rank10::before {
+            content: '\1F0BA';
+        }
+        &.rank11::before {
+            content: '\1F0BB';
+        }
+        &.rank12::before {
+            content: '\1F0BC';
+        }
+        &.rank13::before {
+            content: '\1F0BD';
+        }
+        &.rank14::before {
+            content: '\1F0B1';
+        }
+    }
+
+    &.tiles {
+        &.rank2::before {
+            content: '\1F0C2';
+        }
+        &.rank3::before {
+            content: '\1F0C3';
+        }
+        &.rank4::before {
+            content: '\1F0C4';
+        }
+        &.rank5::before {
+            content: '\1F0C5';
+        }
+        &.rank6::before {
+            content: '\1F0C6';
+        }
+        &.rank7::before {
+            content: '\1F0C7';
+        }
+        &.rank8::before {
+            content: '\1F0C8';
+        }
+        &.rank9::before {
+            content: '\1F0C9';
+        }
+        &.rank10::before {
+            content: '\1F0CA';
+        }
+        &.rank11::before {
+            content: '\1F0CB';
+        }
+        &.rank12::before {
+            content: '\1F0CC';
+        }
+        &.rank13::before {
+            content: '\1F0CD';
+        }
+        &.rank14::before {
+            content: '\1F0C1';
+        }
+    }
+
+    &.clovers {
+        &.rank2::before {
+            content: '\1F0D2';
+        }
+        &.rank3::before {
+            content: '\1F0D3';
+        }
+        &.rank4::before {
+            content: '\1F0D4';
+        }
+        &.rank5::before {
+            content: '\1F0D5';
+        }
+        &.rank6::before {
+            content: '\1F0D6';
+        }
+        &.rank7::before {
+            content: '\1F0D7';
+        }
+        &.rank8::before {
+            content: '\1F0D8';
+        }
+        &.rank9::before {
+            content: '\1F0D9';
+        }
+        &.rank10::before {
+            content: '\1F0DA';
+        }
+        &.rank11::before {
+            content: '\1F0DB';
+        }
+        &.rank12::before {
+            content: '\1F0DC';
+        }
+        &.rank13::before {
+            content: '\1F0DD';
+        }
+        &.rank14::before {
+            content: '\1F0D1';
+        }
+    }
+}
