@@ -74,12 +74,6 @@ class GameModel {
         return cards;
     };
 
-    static sortBy = (criteria, cards) => {
-        const sorted = [];
-
-        return sorted;
-    }
-
     static shuffle(cards) {
         let i = cards.length;
 
