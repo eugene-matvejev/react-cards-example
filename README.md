@@ -16,7 +16,7 @@
 ## software requirements
   * npm v4+ | yarn
   * node.js 6+
-  * (LESS compiler)[http://http://lesscss.org/]
+  * [LESS compiler](http://http://lesscss.org/)
   * browser
 
 ## how to launch
