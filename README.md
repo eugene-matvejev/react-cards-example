@@ -16,7 +16,7 @@
 ## software requirements
   * npm v4+ | yarn
   * node.js 6+
-  * (LESS compiler)[http://http://lesscss.org/]
+  * [LESS compiler](http://http://lesscss.org/)
   * browser
 
 ## how to launch
@@ -25,5 +25,5 @@
   * open `localhost:3000`
 
 ## how to execute tests
-  * npm test
-   * `npm test -- --coverage` note! there is no 100% coverage because it is not purpose of the project.
+  * `npm test`
+    * or `npm test -- --coverage` note! there is no 100% coverage because it is not purpose of the project.
