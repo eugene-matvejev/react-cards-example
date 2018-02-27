@@ -120,31 +120,8 @@ class GameModel {
         switch (direction) {
             case 'desc':
                 return cards.sort((a, b) => compare(a, b));
-                // (a, b) => {
-                //     if (a.rank > b.rank) {
-                //         return -1;
-                //     }
-
-                //     if (a.rank < b.rank) {
-                //         return 1;
-                //     }
-
-                //     return 0;
-                // });
             case 'asc':
                 return cards.sort((a, b) => compare(b, a));
-
-                // return cards.sort((a, b) => {
-                //     if (a.rank < b.rank) {
-                //         return -1;
-                //     }
-
-                //     if (a.rank > b.rank) {
-                //         return 1;
-                //     }
-
-                //     return 0;
-                // });
             default:
                 throw new Error('unknown direction');
         }
