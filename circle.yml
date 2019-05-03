@@ -6,6 +6,7 @@ jobs:
     steps:
       - checkout
       - run: npm i --verbose
+      - run: npm run generate:css
       - run: npm test -- --coverage --watchAll=false
       - run: sudo npm i -g codecov
       - run: codecov
