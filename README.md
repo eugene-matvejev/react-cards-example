@@ -10,7 +10,8 @@
 | __coverage__     |
 | _< codecov.io >_ | [![coverage][codecov.io-master-badge]][codecov.io-master-link]
 
-# react.js + jest + enzyme + less demo
+# example for [tech. test](https://github.com/eugene-matvejev/react.js-cards)
+
 ![img](https://github.com/eugene-matvejev/react-jest-enzyme-less-demo/blob/master/docs/screencapture-localhost-3000-1516748975936.png)
 
 ## software requirements
