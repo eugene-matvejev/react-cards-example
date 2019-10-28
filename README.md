@@ -28,3 +28,9 @@
 ## how to execute tests
   * `npm test`
     * or `npm test -- --coverage` note! there is no 100% coverage because it is not purpose of the project.
+
+### used environment variables
+
+| variable          | default value     | used as   | purpose
+|---                |---                |---        |---
+| PORT              | 3000              | number    | port on which application will be made available
